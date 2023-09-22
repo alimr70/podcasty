@@ -1,6 +1,6 @@
 {
-  "CFBundleDisplayName": "KHAZYN",
-  "app_name": "KHAZYN",
+  "CFBundleDisplayName": "PODCASTY",
+  "app_name": "PODCASTY",
   "lang": "en",
   "HOME": "Home",
   "CATEGORIES": "Category",
@@ -15,21 +15,5 @@
   "GOOGLE": "Google",
   "CHOOSE": "Choose",
   "EMPTY": "Empty",
-  "CONFIRM": "Confirm",
-  "###################### AUTH ######################": "###################### AUTH ######################",
-  "PHONE": "Phone",
-  "EMAIL": "Email",
-  "PASSWORD": "Password",
-  "NAME": "Name",
-  "GENDER": "Gender",
-  "BIO": "Bio",
-  "LOGIN": "Login",
-  "PHONE_NUMBER": "Phone number",
-  "SMS_SEND_TO_PHONE": "Sms is sended to",
-  "ENTER_OTP": "Enter the code sent to your number",
-  "###################### VALIDATIONS ######################": "###################### VALIDATIONS ######################",
-  "REQUIRED": "required",
-  "WRONG_PHONE_FORMATE": "Wrong phone number",
-  "PASSWORD_DONT_MATCH": "Passwords don't match",
-  "HOME_KEY_TEST": "hi"
+  "CONFIRM": "Confirm"
 }

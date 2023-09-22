@@ -1,11 +1,8 @@
 const IMPORTANT_VARS = {
-  appName: "Hossam Sherif",
-  pixBumNumber: "+201280289010",
-  facebookLink: "https://www.fb.com/KhazynEgypt",
-  tweetierLink: "https://www.instagram.com/khazynegypt",
-  instagramLink: "https://www.instagram.com/khazynegypt",
+  appName: "Podcasty",
+  pixBumNumber: "+201211237268",
   forceStoreUpdate: false,
-  androidStoreLink: "https://play.google.com/store/apps/details?id=com.khazyn",
+  androidStoreLink: "https://play.google.com/store/apps",
 };
 
 export default IMPORTANT_VARS;

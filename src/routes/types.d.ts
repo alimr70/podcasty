@@ -14,22 +14,10 @@ type BaseParams<T = unknown> = (ScreenOptionsParams & T) | undefined;
 export type TabParamList = {
   HomeScreen: BaseParams;
   CategoriesScreen: BaseParams;
-  OfferScreen: BaseParams;
-  CartScreen: BaseParams;
-  MainProfileScreen: BaseParams;
 };
 
 export type MainStackParamList = {
   Root: NavigatorScreenParams<TabParamList>;
-  Payment: BaseParams;
-  ProductDetails: BaseParams<{ productId?: string }>;
-  ProductDetailsModal: BaseParams<{ productId?: string }>;
-};
-
-export type AuthStackParamList = {
-  Welcome: BaseParams;
-  Login: BaseParams;
-  Otp: BaseParams<{ phone?: string }>;
 };
 
 export type MainStackScreenProps<T extends keyof MainStackParamList> =

@@ -4,8 +4,6 @@ import {
 } from "@react-navigation/native-stack";
 import BottomTabNavigator from "../BottomTabNavigator";
 // Start of screen
-import ProductDetails from "@/screens/main/ProductDetails";
-import Payment from "@/screens/main/Payment";
 // End of screen
 import { MainStackParamList } from "../types";
 import MainScreenOptions from "../MainScreenOptions";
@@ -24,33 +22,7 @@ export default function MainStack() {
           component={BottomTabNavigator}
           options={{ headerShown: false }}
         />
-
-        <Stack.Screen
-          name="ProductDetails"
-          component={ProductDetails}
-          initialParams={{ title: "Product Details" }}
-        />
       </Stack.Group>
-
-      {/* PRODUCT SCREENS */}
-      <Stack.Group>
-        <Stack.Screen
-          name="ProductDetailsModal"
-          component={ProductDetails}
-          initialParams={{
-            title: "Product Details Modal",
-            isPopupHeader: true,
-          }}
-        />
-      </Stack.Group>
-
-      <Stack.Screen
-        name="Payment"
-        component={Payment}
-        initialParams={{
-          title: "Payment",
-        }}
-      />
     </Stack.Navigator>
   );
 }
