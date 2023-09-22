@@ -11,7 +11,7 @@ const styles = StyleSheet.create({
   },
   text: {
     color: COLORS.dark,
-    fontSize: 10,
+    fontSize: 9,
     ...GLOBAL_STYLES.font700,
   },
 });
