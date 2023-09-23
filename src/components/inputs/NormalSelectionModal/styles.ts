@@ -4,7 +4,7 @@ import GLOBAL_STYLES from "@/constants/GlobalStyles";
 
 const styles = StyleSheet.create({
   modalContainer: {
-    backgroundColor: COLORS.light,
+    backgroundColor: COLORS.dark,
     borderRadius: 30,
     padding: 30,
   },
@@ -13,7 +13,7 @@ const styles = StyleSheet.create({
     paddingVertical: 20,
   },
   text: {
-    color: COLORS.dark,
+    color: COLORS.grey,
     fontSize: 18,
     ...GLOBAL_STYLES.font500,
     marginStart: 10,

@@ -4,7 +4,7 @@ import GLOBAL_STYLES from "@/constants/GlobalStyles";
 
 const styles = StyleSheet.create({
   text: {
-    color: COLORS.dark,
+    color: COLORS.grey,
     fontSize: 14,
     writingDirection: I18nManager.isRTL ? "rtl" : "ltr",
     ...GLOBAL_STYLES.font500,

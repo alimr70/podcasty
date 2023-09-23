@@ -17,7 +17,7 @@ export default function Button({
   title,
   i18nKey,
   onPress,
-  color = COLORS.light,
+  color = COLORS.dark,
   backgroundColor = COLORS.primary,
   borderColor,
   disabled = false,

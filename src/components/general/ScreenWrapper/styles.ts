@@ -11,7 +11,7 @@ const styles = StyleSheet.create({
     width: METRICS.screenWidth,
   },
   innerConatiner: {
-    backgroundColor: COLORS.light,
+    backgroundColor: COLORS.dark,
     flex: 1,
   },
   paddingHorizontal0: {

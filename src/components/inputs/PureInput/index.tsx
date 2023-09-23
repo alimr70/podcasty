@@ -58,7 +58,7 @@ export default function PureInput({
       <Ionicons
         name={showPassword ? "md-eye-outline" : "md-eye-off-outline"}
         size={24}
-        color={COLORS.primary}
+        color={COLORS.grey}
       />
     </TouchableOpacity>
   );

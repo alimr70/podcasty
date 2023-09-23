@@ -9,7 +9,7 @@ export default function NotificationBell() {
 
   return (
     <TouchableOpacity onPress={onGoToNotifications}>
-      <SimpleLineIcons name="bell" color={COLORS.primary} size={21} />
+      <SimpleLineIcons name="bell" color={COLORS.grey} size={21} />
     </TouchableOpacity>
   );
 }

@@ -14,16 +14,16 @@ import i18n from "@/i18n";
 import { DateTimeSelectionProps } from "./types";
 
 const DatePickerThemeOptions = {
-  textHeaderColor: COLORS.dark,
-  textDefaultColor: COLORS.dark,
-  selectedTextColor: COLORS.light,
+  textHeadercolor: COLORS.grey,
+  textDefaultcolor: COLORS.grey,
+  selectedTextcolor: COLORS.grey,
   mainColor: COLORS.primary,
   defaultFont: GLOBAL_STYLES.font500.fontFamily,
   headerFont: GLOBAL_STYLES.font700.fontFamily,
 };
 
 export default function DateTimeSelection({
-  onChange = () => {},
+  onChange = () => { },
   placeholder = i18n.t("CHOOSE"),
   minDate = moment().format("yyyy-MM-DD"),
   mode = "calendar",
@@ -122,7 +122,7 @@ export default function DateTimeSelection({
           customInputColorWhenDisabled={COLORS.dark}
           suffix={
             isConfirmButtonVisible ? (
-              <AntDesign name="calendar" size={21} color={COLORS.primary} />
+              <AntDesign name="calendar" size={21} color={COLORS.grey} />
             ) : null
           }
           error={error}

@@ -18,7 +18,7 @@ function HomeTabBarElement({ focused }: Partial<NavigationTabProps>) {
   return (
     <NavigationTab
       title="HOME"
-      iconComponent={<AntDesign name="home" size={24} color={COLORS.primary} />}
+      iconComponent={<AntDesign name="home" size={24} color={COLORS.grey} />}
       focused={Boolean(focused)}
       tabWidth={TABWIDTH}
     />
@@ -29,7 +29,7 @@ function CategoryTabBarElement({ focused }: Partial<NavigationTabProps>) {
   return (
     <NavigationTab
       title="CATEGORIES"
-      iconComponent={<AntDesign name="book" size={24} color={COLORS.primary} />}
+      iconComponent={<AntDesign name="book" size={24} color={COLORS.grey} />}
       focused={Boolean(focused)}
       tabWidth={TABWIDTH}
     />

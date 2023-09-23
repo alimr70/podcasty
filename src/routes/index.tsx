@@ -7,15 +7,13 @@ import useCheckNewUpdates from "@/hooks/useCheckNewUpdate";
 import COLORS from "@/constants/Colors";
 import MainStack from "./stacks/MainStack";
 import useCheckingForcedStoreUpdate from "@/hooks/useCheckingForcedStoreUpdate";
-import useCheckAuthTokenExistance from "@/hooks/useCheckAuthTokenExistance";
 
 function Route() {
   useCheckNewUpdates();
   useCheckingForcedStoreUpdate();
-  useCheckAuthTokenExistance();
 
   const navTheme = DefaultTheme;
-  navTheme.colors.background = COLORS.light;
+  navTheme.colors.background = COLORS.dark;
 
   return (
     <SafeAreaProvider>

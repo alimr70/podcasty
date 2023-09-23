@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
     marginStart: 10,
   },
   text: {
-    color: COLORS.light,
+    color: COLORS.grey,
     fontSize: 16,
     textAlign: "center",
     ...GLOBAL_STYLES.font700,

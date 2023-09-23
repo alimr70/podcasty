@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
     ...GLOBAL_STYLES.font400,
   },
   input: {
-    color: COLORS.dark,
+    color: COLORS.grey,
     flex: 1,
     fontSize: 14,
     textAlign: I18nManager.isRTL ? "right" : "left",
@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
   },
   inputContainer: {
     alignItems: "center",
-    backgroundColor: COLORS.light,
+    backgroundColor: COLORS.dark,
     borderRadius: 16,
     flexDirection: "row",
     height: 56,
@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 15,
   },
   labelText: {
-    color: COLORS.dark,
+    color: COLORS.grey,
     fontSize: 14,
     marginStart: 5,
     ...GLOBAL_STYLES.font500,

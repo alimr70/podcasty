@@ -1,12 +1,12 @@
 const COLORS = {
   // Main Colors
-  primary: "#452C7A",
-  lightPrimary: "#6541B4",
+  primary: "#0784b5",
+  lightPrimary: "#39ace7",
   secondary: "#F68B21",
   accentYellow: "#FEC214",
   grey: "#DEDDE0",
-  darkGrey: "#B9B8BE",
-  dark: "#100A1F",
+  darkGrey: "#486581",
+  dark: "#102a43",
   headlineDark: "#072736",
   light: "#ffffff",
   greyBg: "#F9F6EF99",

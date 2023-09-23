@@ -4,7 +4,7 @@ import COLORS from "@/constants/Colors";
 const styles = StyleSheet.create({
   closeSection: { justifyContent: "flex-end" },
   modalContainer: {
-    backgroundColor: COLORS.light,
+    backgroundColor: COLORS.dark,
     borderRadius: 30,
     padding: 20,
   },

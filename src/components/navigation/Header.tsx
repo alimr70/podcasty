@@ -3,21 +3,21 @@ import { I18nManager, StyleSheet, TouchableOpacity, View } from "react-native";
 import { getStatusBarHeight } from "react-native-status-bar-height";
 import { useNavigation } from "@react-navigation/native";
 import GLOBAL_STYLES from "@/constants/GlobalStyles";
-import Colors from "@/constants/Colors";
+import COLORS from "@/constants/Colors";
 import Text from "@/components/general/Text";
 import NotificationBell from "./NotificationBell";
 
 const styles = StyleSheet.create({
   headerStyle: {
     alignItems: "center",
-    backgroundColor: Colors.light,
+    backgroundColor: COLORS.darkGrey,
     flexDirection: "row",
     justifyContent: "space-between",
     paddingHorizontal: 15,
     paddingTop: getStatusBarHeight(),
   },
   headerTitle: {
-    color: Colors.primary,
+    color: COLORS.grey,
     fontSize: 18,
     ...GLOBAL_STYLES.font500,
   },
@@ -40,7 +40,7 @@ export default function NavigationHeader({
     <SimpleLineIcons
       name={I18nManager.isRTL ? "arrow-right" : "arrow-left"}
       size={18}
-      color={Colors.dark}
+      color={COLORS.grey}
     />
   );
 

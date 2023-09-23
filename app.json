@@ -10,15 +10,13 @@
     "splash": {
       "image": "./src/assets/images/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#102a43"
     },
     "updates": {
       "checkAutomatically": "ON_ERROR_RECOVERY",
       "url": "https://u.expo.dev/1c2e4a79-2634-4b78-983f-8671b435f6ff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.hossam.template",
@@ -30,7 +28,7 @@
       "package": "com.hossam.template",
       "adaptiveIcon": {
         "foregroundImage": "./src/assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#102a43"
       }
     },
     "locales": {
@@ -43,7 +41,7 @@
         "expo-notifications",
         {
           "icon": "./src/assets/images/notification-icon.png",
-          "color": "#ffffff"
+          "color": "#102a43"
         }
       ],
       "@mmomtchev/expo-android-localized-app-name"

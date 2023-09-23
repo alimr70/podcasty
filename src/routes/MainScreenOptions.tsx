@@ -1,4 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
+import { View } from "react-native";
 import { NativeStackNavigationOptions } from "@react-navigation/native-stack";
 import { BottomTabNavigationOptions } from "@react-navigation/bottom-tabs";
 import { RouteProp } from "@react-navigation/native";
@@ -6,6 +7,7 @@ import NavigationHeader from "@/components/navigation/Header";
 import PopupHeader from "@/components/navigation/PopupHeader";
 import { MainStackParamList, ScreenOptionsParams } from "./types";
 import METRICS from "@/constants/Metrics";
+import COLORS from "@/constants/Colors";
 
 export interface DefaultScreenOptionProps {
   route: RouteProp<MainStackParamList, keyof MainStackParamList>;
@@ -46,6 +48,17 @@ export default function MainScreenOptions({
     tabBarShowLabel: false,
     tabBarStyle: {
       height: METRICS.bottomTabsHeight,
+      borderTopWidth: 0,
     },
+    tabBarBackground: () => (
+      <View
+        // eslint-disable-next-line react-native/no-inline-styles
+        style={{
+          backgroundColor: COLORS.darkGrey,
+          height: METRICS.bottomTabsHeight,
+          margin: 0,
+        }}
+      />
+    ),
   };
 }

@@ -9,7 +9,7 @@ export default function Text({
   style,
   fontSize = 14,
   fontFamily = "font400",
-  color = "dark",
+  color = "grey",
   ...otherProps
 }: TextProps): JSX.Element {
   const { t } = useAutoCompleteTranslation();

@@ -1,6 +1,7 @@
 import { Text, View, ViewStyle } from "react-native";
 import { NavigationTabProps } from "./types";
 import styles from "./styles";
+import COLORS from "@/constants/Colors";
 
 const SPACE_BETWEEN = 10.5;
 
@@ -17,7 +18,7 @@ export default function NavigationTab({
   };
 
   const focusContainer: ViewStyle = {
-    backgroundColor: focused ? "#D1D5DB" : "transpparent",
+    backgroundColor: focused ? COLORS.dark : "transpparent",
     borderRadius: 16,
   };
 

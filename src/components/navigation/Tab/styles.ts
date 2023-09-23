@@ -10,7 +10,7 @@ const styles = StyleSheet.create({
     paddingVertical: 6,
   },
   text: {
-    color: COLORS.dark,
+    color: COLORS.grey,
     fontSize: 9,
     ...GLOBAL_STYLES.font700,
   },

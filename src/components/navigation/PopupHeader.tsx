@@ -3,20 +3,20 @@ import { StyleSheet, TouchableOpacity, View } from "react-native";
 import { getStatusBarHeight } from "react-native-status-bar-height";
 import { useNavigation } from "@react-navigation/native";
 import GLOBAL_STYLES from "@/constants/GlobalStyles";
-import Colors from "@/constants/Colors";
+import COLORS from "@/constants/Colors";
 import Text from "@/components/general/Text";
 
 const styles = StyleSheet.create({
   headerStyle: {
     alignItems: "center",
-    backgroundColor: Colors.light,
+    backgroundColor: COLORS.dark,
     flexDirection: "row",
     justifyContent: "space-between",
     paddingHorizontal: 15,
     paddingTop: getStatusBarHeight(),
   },
   headerTitle: {
-    color: Colors.primary,
+    color: COLORS.primary,
     fontSize: 18,
     ...GLOBAL_STYLES.font500,
   },
@@ -30,7 +30,7 @@ export default function PopupHeader({ title = "" }) {
   const navigation = useNavigation();
 
   const CloseButtonMarkup = (
-    <SimpleLineIcons name="close" size={18} color={Colors.dark} />
+    <SimpleLineIcons name="close" size={18} color={COLORS.dark} />
   );
 
   return (
